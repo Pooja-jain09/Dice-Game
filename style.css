@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.itemOdd{
+    height: 8vh;
+    width: 100px;
+    background-color: white;
+    color: black;
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itemEven{
+    height: 8vh;
+    width: 100px;
+    background-color: black;
+    color: white;
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#item1{
+    background-color: red;
+}
+.button{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+.button2{
+    height: 50px;
+    width: 50px;
+    background-color: greenyellow;
+}
